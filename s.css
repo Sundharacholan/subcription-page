@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.sub{
+    background-color: #D500F9;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.sub-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    max-width: 1200px;
+ 
+}
+.sub-topic {
+    background-color:black;
+    border: 1px solid #ddd;
+    color:white ;
+    border-radius: 5px;
+    margin: 0 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    padding-bottom: 6%;
+    margin: -20px -20px 20px -20px;
+    margin-left: 30px;
+    border-radius: 5px 5px 0 0;
+}
+.sub-topic{
+    gap: 10px;
+}
+.sub-topic ul {
+    list-style-type: none;
+    padding: 0;
+}
+.sub-topic ul li {
+    margin: 10px 0;
+}
+.sub-options{
+    border:white solid 1px ;
+    border-radius: 15px;
+}
